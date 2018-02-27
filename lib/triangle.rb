@@ -10,7 +10,7 @@ class Triangle
   def kind
 
     case @sides
-    when @sides.all?(@sides.first)
+    when @sides.count{|s| s == @sides.first}
       :equilateral
     end
 
