@@ -12,6 +12,7 @@ class Triangle
     case @sides
     when @sides.all?(@sides.first)
       :equilateral
+    end
 
   end
 
